@@ -6,7 +6,7 @@ name: 中青自动阅读_backup
 on:
   workflow_dispatch:
   schedule:
-     - cron: '6 22 * * *'
+     - cron: '6 23 * * *'
   watch:
     types: started
 jobs:

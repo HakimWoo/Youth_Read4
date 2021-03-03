@@ -22,6 +22,8 @@ jobs:
       YOUTH_READ6: ${{ secrets.YOUTH_READ422 }}
       YOUTH_READ7: ${{ secrets.YOUTH_READ421 }}
       YOUTH_READ8: ${{ secrets.YOUTH_READ422 }}
+      YOUTH_READ9: ${{ secrets.YOUTH_READ421 }}
+      YOUTH_READ10: ${{ secrets.YOUTH_READ422 }}
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js 12.x
